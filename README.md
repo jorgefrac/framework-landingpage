@@ -1,2 +1,2 @@
-# framework-landingpage
+# Framework Landingpage
 Framework small projects
