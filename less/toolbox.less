@@ -1,0 +1,136 @@
+/*
+    TOOLBOX
+    V.01
+*/
+
+/* =Plugins
+-----------------------------------------------------------------------------*/
+.bg-img {
+    img {
+        display: none;
+    }
+}
+
+/* =Padding
+-----------------------------------------------------------------------------*/
+.end{
+    padding: 0;
+}
+
+.end--left{
+    padding-left: 0;
+}
+
+.end--right{
+    padding-right: 0;
+}
+
+/* =Text
+-----------------------------------------------------------------------------*/
+.text--center{
+    text-align: center;
+}
+
+.text--left{
+    text-align: left;
+}
+
+.text--right{
+    text-align: right;
+}
+
+/* =Position
+-----------------------------------------------------------------------------*/
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+
+.fixed {
+    position: fixed;
+}
+
+/* =Z-index
+-----------------------------------------------------------------------------*/
+.before{
+    z-index: 5;
+}
+
+.middle{
+    z-index: 10;
+}
+
+.after{
+    z-index: 20;
+}
+
+/* =Align
+-----------------------------------------------------------------------------*/
+.vertical-align() {
+    position: relative;
+    top: 50%;
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.horizontal-align() {
+    left: 50%;
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.center-align() {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+/* =Transition
+-----------------------------------------------------------------------------*/
+.transition{
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+/* =Selection
+-----------------------------------------------------------------------------*/
+::-moz-selection {
+    color: #000;
+    background: #ffe400;
+}
+::selection {
+    color: #000;
+    background: #ffe400;
+}
+
+::-webkit-input-placeholder {
+   color: #CCC;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #CCC;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #CCC;
+}
+
+:-ms-input-placeholder {
+   color: #CCC;
+}

@@ -6843,3 +6843,133 @@ button.close {
     display: none !important;
   }
 }
+/*
+    GENERAL
+*/
+/* =Colors
+-----------------------------------------------------------------------------*/
+/* =Fonts
+-----------------------------------------------------------------------------*/
+.title {
+  font-family: 'CircularStd-Bold';
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'CircularStd-Bold';
+}
+/*
+    TOOLBOX
+    V.01
+*/
+/* =Plugins
+-----------------------------------------------------------------------------*/
+.bg-img img {
+  display: none;
+}
+/* =Padding
+-----------------------------------------------------------------------------*/
+.end {
+  padding: 0;
+}
+.end--left {
+  padding-left: 0;
+}
+.end--right {
+  padding-right: 0;
+}
+/* =Text
+-----------------------------------------------------------------------------*/
+.text--center {
+  text-align: center;
+}
+.text--left {
+  text-align: left;
+}
+.text--right {
+  text-align: right;
+}
+/* =Position
+-----------------------------------------------------------------------------*/
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+.fixed {
+  position: fixed;
+}
+/* =Z-index
+-----------------------------------------------------------------------------*/
+.before {
+  z-index: 5;
+}
+.middle {
+  z-index: 10;
+}
+.after {
+  z-index: 20;
+}
+/* =Align
+-----------------------------------------------------------------------------*/
+/* =Transition
+-----------------------------------------------------------------------------*/
+.transition {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+/* =Selection
+-----------------------------------------------------------------------------*/
+::-moz-selection {
+  color: #000;
+  background: #ffe400;
+}
+::selection {
+  color: #000;
+  background: #ffe400;
+}
+::-webkit-input-placeholder {
+  color: #CCC;
+}
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #CCC;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #CCC;
+}
+:-ms-input-placeholder {
+  color: #CCC;
+}
+/*
+    FONTS
+*/
+/* =Circular
+-----------------------------------------------------------------------------*/
+@font-face {
+  font-family: 'CircularStd-Bold';
+  src: url('../fonts/CircularStd-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/CircularStd-Bold.otf') format('opentype'), url('../fonts/CircularStd-Bold.woff') format('woff'), url('../fonts/CircularStd-Bold.ttf') format('truetype'), url('../fonts/CircularStd-Bold.svg#CircularStd-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* =Pages
+-----------------------------------------------------------------------------*/
+/* =Responsive
+-----------------------------------------------------------------------------*/
+/*
+    MEDIA SCREEN
+*/
+/* =Mobile
+-----------------------------------------------------------------------------*/
+/* =Desktops
+-----------------------------------------------------------------------------*/
+/* =Full Screens
+-----------------------------------------------------------------------------*/
