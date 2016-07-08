@@ -8,7 +8,7 @@ Framework small projects
 
 # CSS
 * media-screen
-* toolbox
+* toolbox v.2
 * fonts
 
 # JS

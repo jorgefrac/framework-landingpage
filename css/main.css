@@ -6863,12 +6863,21 @@ h6 {
 }
 /*
     TOOLBOX
-    V.01
+    V.02
 */
 /* =Plugins
 -----------------------------------------------------------------------------*/
 .bg-img img {
   display: none;
+}
+.round {
+  border-radius: 56px;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
 }
 /* =Padding
 -----------------------------------------------------------------------------*/
@@ -6916,6 +6925,30 @@ h6 {
 }
 /* =Align
 -----------------------------------------------------------------------------*/
+.centered {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+}
+.rows-centered {
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
 /* =Transition
 -----------------------------------------------------------------------------*/
 .transition {
