@@ -1,3 +1,8 @@
+/*!
+* main.js | Jorge Fco.
+* Copyright 2016
+*/
+
 (function($){
 	//Var
 
@@ -9,7 +14,7 @@
 
 		//Functions
 		Home: function(){
-			alert("Home");
+			//Code
 		},
 
 	};//end main
