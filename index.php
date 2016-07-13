@@ -56,6 +56,7 @@
         <div class="container">
            <section>
                 <h1>Home</h1>
+                <p>Text</p>
                 <button type="button" class="btn btn-default round">Go!</button>
            </section>
         </div>
@@ -65,7 +66,7 @@
     <!--FOOTER-->
     <footer>
         <div class="container">
-            <?php echo date('Y') ?>
+           <p> <?php echo date('Y') ?></p>
         </div>
     </footer>
     <!--FOOTER-->
