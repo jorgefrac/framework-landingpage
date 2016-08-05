@@ -22,5 +22,4 @@
 	//Run
 	main.init();
 
-
 })(jQuery);

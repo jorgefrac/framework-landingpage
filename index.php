@@ -46,7 +46,7 @@
                 <ul class="nav">
                     <li><a href="" title=""></a></li>
                 </ul>
-            </nav>    
+            </nav>
        </div>
     </header>
     <!--HEADER-->
@@ -70,11 +70,12 @@
         </div>
     </footer>
     <!--FOOTER-->
-	
+
     <!--JS-->
-     <script src="js/jquery.min.js" type="text/javascript"></script>
-     <script src="js/plugins.js" type="text/javascript"></script>
-     <script src="js/main.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/plugins.js" type="text/javascript"></script>
+    <script src="js/main.js" type="text/javascript"></script>
 
     <!-- Google Analytics -->
     <script>
