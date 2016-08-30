@@ -1,8 +1,7 @@
 /*!
-* main.js | Jorge Fco.
-* Copyright 2016
+	* main.js 	|	Jorge Fco.
+	* Copyright 2016
 */
-
 (function($){
 	//Var
 

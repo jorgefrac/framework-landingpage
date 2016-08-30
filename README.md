@@ -15,12 +15,12 @@ Set the general.less file to define the colors and fonts
 * fonts
 
 # :file_folder: JS
-* jQuery v2.2.1
+* jQuery v2.2.4
 * plugins.js
 * main.js
 * Google Analytics
 
-# Bootstrap v3.3.6
+# Bootstrap v3.3.7
 Bootstrap [Getting Started](http://getbootstrap.com/css/)
 
 # AngularJS

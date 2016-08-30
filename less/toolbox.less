@@ -1,175 +1,175 @@
 /*
-    TOOLBOX
-    V.02
+TOOLBOX
+V.02
 */
 
 /* =Plugins
 -----------------------------------------------------------------------------*/
 .bg-img {
-    img {
-        display: none;
-    }
+	img {
+		display: none;
+	}
 }
 
 .round {
-    border-radius: 56px;
+	border-radius: 56px;
 }
 
 .hide{
-    display: none;
+	display: none;
 }
 
 .show{
-    display: block;
+	display: block;
 }
 
 
 /* =Padding
 -----------------------------------------------------------------------------*/
 .end{
-    padding: 0;
+padding: 0;
 }
 
 .end--left{
-    padding-left: 0;
+padding-left: 0;
 }
 
 .end--right{
-    padding-right: 0;
+padding-right: 0;
 }
 
 /* =Text
 -----------------------------------------------------------------------------*/
 .text--center{
-    text-align: center;
+	text-align: center;
 }
 
 .text--left{
-    text-align: left;
+	text-align: left;
 }
 
 .text--right{
-    text-align: right;
+	text-align: right;
 }
 
 /* =Position
 -----------------------------------------------------------------------------*/
 .relative {
-    position: relative;
+	position: relative;
 }
 .absolute {
-    position: absolute;
+	position: absolute;
 }
 
 .fixed {
-    position: fixed;
+	position: fixed;
 }
 
 /* =Z-index
 -----------------------------------------------------------------------------*/
 .before{
-    z-index: 5;
+	z-index: 5;
 }
 
 .middle{
-    z-index: 10;
+	z-index: 10;
 }
 
 .after{
-    z-index: 20;
+	z-index: 20;
 }
 
 /* =Align
 -----------------------------------------------------------------------------*/
 .vertical-align() {
-    position: relative;
-    top: 50%;
-    -moz-transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+	position: relative;
+	top: 50%;
+	-moz-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
 }
 
 .horizontal-align() {
-    left: 50%;
-    -moz-transform: translateX(-50%);
-    -webkit-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
+	left: 50%;
+	-moz-transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
 }
 
 .center-align() {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    -o-transform: translateX(-50%) translateY(-50%);
-    -ms-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	-o-transform: translateX(-50%) translateY(-50%);
+	-ms-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
 }
 
 .centered{
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-align-items: center;
-    -ms-align-items: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    -ms-justify-content: center;
-    justify-content: center;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	-ms-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
 }
 
 .rows-centered{
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
 }
 
 /* =Transition
 -----------------------------------------------------------------------------*/
 .transition{
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -ms-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
 }
 
 /* =Selection
 -----------------------------------------------------------------------------*/
 ::-moz-selection {
-    color: #000;
-    background: #ffe400;
+	color: #000;
+	background: #ffe400;
 }
 ::selection {
-    color: #000;
-    background: #ffe400;
+	color: #000;
+	background: #ffe400;
 }
 
 ::-webkit-input-placeholder {
-   color: #CCC;
+	color: #CCC;
 }
 
 :-moz-placeholder { /* Firefox 18- */
-   color: #CCC;
+	color: #CCC;
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
-   color: #CCC;
+	color: #CCC;
 }
 
 :-ms-input-placeholder {
-   color: #CCC;
+	color: #CCC;
 }
