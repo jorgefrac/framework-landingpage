@@ -1,5 +1,5 @@
 # :file_folder: Framework Landingpage
-Framework small projects
+F r a m e w o r k - small projects v.01
 
 # Configure Style
 Set the general.less file to define the colors and fonts
