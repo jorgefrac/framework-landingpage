@@ -30,6 +30,14 @@ Version angularjs - 1.5.8 [Getting Started](https://angularjs.org/)
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
 ```
 
+# Get Gulp.js
+cd name-project
+
+Install gulp in project
+```
+$ npm install --save-dev gulp
+```
+
 # Plugins
 * TweenMax | VERSION: 1.18.5
 * imgLiquid | v0.9.944
