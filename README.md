@@ -1,5 +1,5 @@
 # :file_folder: Framework Landingpage
-F r a m e w o r k - small projects v.01
+F r a m e w o r k - small projects v.02
 
 # Configure Style
 Set the general.less file to define the colors and fonts
@@ -9,13 +9,9 @@ Set the general.less file to define the colors and fonts
 * favicons
 * css
 
-# :file_folder: CSS
-* media-screen
-* toolbox v.2
-* fonts
 
 # :file_folder: JS
-* jQuery v2.2.4
+* jQuery v3.1.1
 * plugins.js
 * main.js
 * Google Analytics

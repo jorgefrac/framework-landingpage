@@ -5,12 +5,12 @@
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<meta name="description" content="">
-	<meta name="keywords" content="">
+	<meta name="keywords" content="Jorge, fco, frac, dev, development, developers, jorge-frac, jorge-fco, web, web developers, web development">
 	<!-- Control the behavior of search engine crawling and indexing -->
 	<meta name="robots" content="index,follow,noodp"><!-- All Search Engines -->
 	<meta name="googlebot" content="index,follow"><!-- Google Specific -->
 	<!-- Does the same function as the keywords tag -->
-	<meta name="category" content="">
+	<meta name="category" content="Web Development">
 
 	<!--FAVICONS-->
 	<link rel="apple-touch-icon" sizes="57x57" href="images/favicons/apple-icon-57x57.png">
