@@ -17,6 +17,11 @@
   },
   "homepage": "https://github.com/jorgefrac/framework-landingpage#readme",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-jsmin": "^0.1.5",
+    "gulp-uglify": "^2.0.0"
+  },
+  "dependencies": {
+    "gulp-dest": "^0.2.3"
   }
 }
