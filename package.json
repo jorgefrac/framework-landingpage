@@ -1,0 +1,22 @@
+{
+  "name": "framework-landingpage",
+  "version": "1.0.0",
+  "description": "small projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorgefrac/framework-landingpage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jorgefrac/framework-landingpage/issues"
+  },
+  "homepage": "https://github.com/jorgefrac/framework-landingpage#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
