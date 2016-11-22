@@ -1,8 +1,4 @@
-/*
-TOOLBOX
-*/
-
-/* =Plugins
+/* =Visible
 -----------------------------------------------------------------------------*/
 .bg-img {
 	img {
@@ -26,15 +22,15 @@ TOOLBOX
 /* =Padding
 -----------------------------------------------------------------------------*/
 .end{
-padding: 0;
+	padding: 0;
 }
 
 .end--left{
-padding-left: 0;
+	padding-left: 0;
 }
 
 .end--right{
-padding-right: 0;
+	padding-right: 0;
 }
 
 /* =Text
@@ -138,37 +134,47 @@ padding-right: 0;
 
 /* =Transition
 -----------------------------------------------------------------------------*/
-.transition{
-	-webkit-transition: all 0.5s ease-in-out;
-	-moz-transition: all 0.5s ease-in-out;
-	-ms-transition: all 0.5s ease-in-out;
-	-o-transition: all 0.5s ease-in-out;
-	transition: all 0.5s ease-in-out;
+.transition(@time){
+	-webkit-transition: all @time ease-in-out;
+	-moz-transition: all @time ease-in-out;
+	-ms-transition: all @time ease-in-out;
+	-o-transition: all @time ease-in-out;
+	transition: all @time ease-in-out;
+}
+
+/* =Radius
+-----------------------------------------------------------------------------*/
+.border-radius(@num){
+	border-radius: @num;
+	-moz-border-radius: @num;
+	-webkit-border-radius: @num;
 }
 
 /* =Selection
 -----------------------------------------------------------------------------*/
 ::-moz-selection {
-	color: #000;
-	background: #ffe400;
+	color: @text--select;
+	background: @select;
 }
 ::selection {
-	color: #000;
-	background: #ffe400;
+	color: @text--select;
+	background: @select;
 }
 
+/* =Palceholder
+-----------------------------------------------------------------------------*/
 ::-webkit-input-placeholder {
-	color: #CCC;
+	color: @color--placeholder;
 }
 
 :-moz-placeholder { /* Firefox 18- */
-	color: #CCC;
+	color: @color--placeholder;
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
-	color: #CCC;
+	color: @color--placeholder;
 }
 
 :-ms-input-placeholder {
-	color: #CCC;
+	color: @color--placeholder;
 }

@@ -43,8 +43,8 @@
 	<header>
 		<div class="container">
 			<nav>
-				<ul class="nav">
-					<li><a href="" title=""></a></li>
+				<ul class="nav nav pills">
+					<li><a href="#" title="">Home</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -55,9 +55,10 @@
 	<div class="home">
 		<div class="container">
 			<section>
-				<h1>Home</h1>
+				<h1>Title 1</h1>
+				<h2>Title 2</h2>
 				<p>Text</p>
-				<button type="button" class="btn btn-default round">Go!</button>
+				<a href="#" title="">Link view</a>
 			</section>
 		</div>
 	</div>
@@ -84,7 +85,7 @@
 		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-		ga('create', 'UA-XXXXX-Y', 'auto');
+		ga('create', 'UA-85711571-1', 'auto');
 		ga('send', 'pageview');
 	</script>
 	<!-- End Google Analytics -->
