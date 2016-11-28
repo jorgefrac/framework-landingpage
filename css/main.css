@@ -6877,6 +6877,31 @@ label,
 span {
   font-family: 'SourceCodePro-Medium';
 }
+/* =Header
+-----------------------------------------------------------------------------*/
+.header {
+  width: 100%;
+  position: relative;
+  background-color: #F9F9F9;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.header h1 {
+  margin: 0;
+}
+/* =Footer
+-----------------------------------------------------------------------------*/
+.footer {
+  width: 100%;
+  position: relative;
+  background-color: #F9F9F9;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.footer p {
+  text-align: center;
+  margin: 0;
+}
 /* =Images
 -----------------------------------------------------------------------------*/
 .banner {
@@ -7022,11 +7047,11 @@ FONTS
 -----------------------------------------------------------------------------*/
 ::-moz-selection {
   color: #000000;
-  background: #FFe400;
+  background: #FFE400;
 }
 ::selection {
   color: #000000;
-  background: #FFe400;
+  background: #FFE400;
 }
 /* =Palceholder
 -----------------------------------------------------------------------------*/
@@ -7051,6 +7076,9 @@ FONTS
 */
 .home {
   width: 100%;
+  position: relative;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 /* =Responsive
 -----------------------------------------------------------------------------*/

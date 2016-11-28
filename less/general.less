@@ -11,7 +11,7 @@ GENERAL
 @color--accent:			#F9F9F9;
 @color--divider: 			rgba(0, 0, 0, 0.2);
 @color--placeholder:		#CCCCCC;
-@select: 					#FFe400;
+@select: 					#FFE400;
 @text--select: 			#000000;
 
 /* =Fonts
@@ -38,6 +38,33 @@ h1,h2,h3,h4,h5,h6{
 
 a,button,p, label,span{
 	.text;
+}
+
+/* =Header
+-----------------------------------------------------------------------------*/
+.header{
+	width: 100%;
+	position: relative;
+	background-color: @color--accent;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	h1{
+		margin: 0;
+	}
+}
+
+/* =Footer
+-----------------------------------------------------------------------------*/
+.footer{
+	width: 100%;
+	position: relative;
+	background-color: @color--accent;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	p{
+		text-align: center;
+		margin: 0;
+	}
 }
 
 /* =Images

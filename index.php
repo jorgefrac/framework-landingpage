@@ -40,34 +40,28 @@
 <body>
 
 	<!--HEADER-->
-	<header>
+	<header class="header">
 		<div class="container">
-			<nav>
-				<ul class="nav nav pills">
-					<li><a href="#" title="">Home</a></li>
-				</ul>
-			</nav>
+			<h1>Framework</h1>
 		</div>
 	</header>
 	<!--HEADER-->
 
 	<!--SECTION-->
-	<div class="home">
+	<main class="home" role="main">
 		<div class="container">
-			<section>
-				<h1>Title 1</h1>
-				<h2>Title 2</h2>
-				<p>Text</p>
-				<a href="#" title="">Link view</a>
-			</section>
+			<h1>Title 1</h1>
+			<h2>Title 2</h2>
+			<p>Text</p>
+			<a href="#" title="">Link view</a>
 		</div>
-	</div>
+	</main>
 	<!--SECTION-->
 
 	<!--FOOTER-->
-	<footer>
+	<footer class="footer">
 		<div class="container">
-			<p> <?php echo date('Y') ?></p>
+			<p>Framework — <?php echo date('Y') ?></p>
 		</div>
 	</footer>
 	<!--FOOTER-->
