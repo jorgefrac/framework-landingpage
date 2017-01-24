@@ -1,7 +1,3 @@
-/*
-GENERAL
-*/
-
 /* =Colors
 -----------------------------------------------------------------------------*/
 @color--primary:              	 #4823EA;
@@ -12,7 +8,7 @@ GENERAL
 @color--divider: 			rgba(0, 0, 0, 0.2);
 @color--placeholder:		#CCCCCC;
 @select: 					#FFE400;
-@text--select: 			#000000;
+@text--select: 				#000000;
 
 /* =Fonts
 -----------------------------------------------------------------------------*/
@@ -40,53 +36,31 @@ a,button,p, label,span{
 	.text;
 }
 
-/* =Header
+/* =Selection
 -----------------------------------------------------------------------------*/
-.header{
-	width: 100%;
-	position: relative;
-	background-color: @color--accent;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	h1{
-		margin: 0;
-	}
+::-moz-selection {
+	color: @text--select;
+	background: @select;
+}
+::selection {
+	color: @text--select;
+	background: @select;
 }
 
-/* =Footer
+/* =Palceholder
 -----------------------------------------------------------------------------*/
-.footer{
-	width: 100%;
-	position: relative;
-	background-color: @color--accent;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	p{
-		text-align: center;
-		margin: 0;
-	}
+::-webkit-input-placeholder {
+	color: @color--placeholder;
 }
 
-/* =Images
------------------------------------------------------------------------------*/
-.banner{
-	width: 100%;
-	height: 100%;
-	left: 0;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	position: absolute;
-	.before;
+:-moz-placeholder { /* Firefox 18- */
+	color: @color--placeholder;
+}
 
-	img{
-		width: 100%;
-		height: 100%;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		position: relative;
-		.middle;
-	}
+::-moz-placeholder {  /* Firefox 19+ */
+	color: @color--placeholder;
+}
+
+:-ms-input-placeholder {
+	color: @color--placeholder;
 }

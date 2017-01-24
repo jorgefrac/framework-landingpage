@@ -40,7 +40,7 @@
 <body>
 
 	<!--HEADER-->
-	<header class="header">
+	<header class="header" role="header">
 		<div class="container">
 			<h1>Framework</h1>
 		</div>
@@ -59,7 +59,7 @@
 	<!--SECTION-->
 
 	<!--FOOTER-->
-	<footer class="footer">
+	<footer class="footer" role="footer">
 		<div class="container">
 			<p>Framework — <?php echo date('Y') ?></p>
 		</div>
@@ -67,7 +67,6 @@
 	<!--FOOTER-->
 
 	<!--JS-->
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
 	<script src="js/jquery.min.js" type="text/javascript"></script>
 	<script src="js/plugins.js" type="text/javascript"></script>
 	<script src="js/main.js" type="text/javascript"></script>

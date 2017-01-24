@@ -1,7 +1,3 @@
-/*!
-	* main.js 	|	Jorge Fco.
-	* Copyright 2016
-*/
 (function($){
 	//Var
 

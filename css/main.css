@@ -1,14 +1,5 @@
-/*
-	MAIN
-*/
 /* =General
 -----------------------------------------------------------------------------*/
-/*!
-* Bootstrap v3.3.7 (http://getbootstrap.com)
-* Copyright 2011-2016 Twitter, Inc.
-* Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
-*/
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -6844,8 +6835,36 @@ button.close {
   }
 }
 /*
-GENERAL
+FONTS
 */
+/* =Circular
+-----------------------------------------------------------------------------*/
+@font-face {
+  font-family: 'CircularStd-Bold';
+  src: url('../fonts/CircularStd-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/CircularStd-Bold.otf') format('opentype'), url('../fonts/CircularStd-Bold.woff') format('woff'), url('../fonts/CircularStd-Bold.ttf') format('truetype'), url('../fonts/CircularStd-Bold.svg#CircularStd-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* =SourceCodePro
+-----------------------------------------------------------------------------*/
+@font-face {
+  font-family: 'SourceCodePro-Bold';
+  src: url('../fonts/SourceCodePro-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/SourceCodePro-Bold.otf') format('opentype'), url('../fonts/SourceCodePro-Bold.woff') format('woff'), url('../fonts/SourceCodePro-Bold.ttf') format('truetype'), url('../fonts/SourceCodePro-Bold.svg#SourceCodePro-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SourceCodePro-It';
+  src: url('../fonts/SourceCodePro-It.eot?#iefix') format('embedded-opentype'), url('../fonts/SourceCodePro-It.otf') format('opentype'), url('../fonts/SourceCodePro-It.woff') format('woff'), url('../fonts/SourceCodePro-It.ttf') format('truetype'), url('../fonts/SourceCodePro-It.svg#SourceCodePro-It') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SourceCodePro-Medium';
+  src: url('../fonts/SourceCodePro-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/SourceCodePro-Medium.otf') format('opentype'), url('../fonts/SourceCodePro-Medium.woff') format('woff'), url('../fonts/SourceCodePro-Medium.ttf') format('truetype'), url('../fonts/SourceCodePro-Medium.svg#SourceCodePro-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 /* =Colors
 -----------------------------------------------------------------------------*/
 /* =Fonts
@@ -6877,83 +6896,31 @@ label,
 span {
   font-family: 'SourceCodePro-Medium';
 }
-/* =Header
+/* =Selection
 -----------------------------------------------------------------------------*/
-.header {
-  width: 100%;
-  position: relative;
-  background-color: #F9F9F9;
-  padding-top: 10px;
-  padding-bottom: 10px;
+::-moz-selection {
+  color: #000000;
+  background: #FFE400;
 }
-.header h1 {
-  margin: 0;
+::selection {
+  color: #000000;
+  background: #FFE400;
 }
-/* =Footer
+/* =Palceholder
 -----------------------------------------------------------------------------*/
-.footer {
-  width: 100%;
-  position: relative;
-  background-color: #F9F9F9;
-  padding-top: 10px;
-  padding-bottom: 10px;
+::-webkit-input-placeholder {
+  color: #CCCCCC;
 }
-.footer p {
-  text-align: center;
-  margin: 0;
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #CCCCCC;
 }
-/* =Images
------------------------------------------------------------------------------*/
-.banner {
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  position: absolute;
-  z-index: 5;
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #CCCCCC;
 }
-.banner img {
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  position: relative;
-  z-index: 10;
-}
-/*
-FONTS
-*/
-/* =Circular
------------------------------------------------------------------------------*/
-@font-face {
-  font-family: 'CircularStd-Bold';
-  src: url('../fonts/CircularStd-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/CircularStd-Bold.otf') format('opentype'), url('../fonts/CircularStd-Bold.woff') format('woff'), url('../fonts/CircularStd-Bold.ttf') format('truetype'), url('../fonts/CircularStd-Bold.svg#CircularStd-Bold') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-/* =SourceCodePro
------------------------------------------------------------------------------*/
-@font-face {
-  font-family: 'SourceCodePro-Bold';
-  src: url('../fonts/SourceCodePro-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/SourceCodePro-Bold.otf') format('opentype'), url('../fonts/SourceCodePro-Bold.woff') format('woff'), url('../fonts/SourceCodePro-Bold.ttf') format('truetype'), url('../fonts/SourceCodePro-Bold.svg#SourceCodePro-Bold') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'SourceCodePro-It';
-  src: url('../fonts/SourceCodePro-It.eot?#iefix') format('embedded-opentype'), url('../fonts/SourceCodePro-It.otf') format('opentype'), url('../fonts/SourceCodePro-It.woff') format('woff'), url('../fonts/SourceCodePro-It.ttf') format('truetype'), url('../fonts/SourceCodePro-It.svg#SourceCodePro-It') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'SourceCodePro-Medium';
-  src: url('../fonts/SourceCodePro-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/SourceCodePro-Medium.otf') format('opentype'), url('../fonts/SourceCodePro-Medium.woff') format('woff'), url('../fonts/SourceCodePro-Medium.ttf') format('truetype'), url('../fonts/SourceCodePro-Medium.svg#SourceCodePro-Medium') format('svg');
-  font-weight: normal;
-  font-style: normal;
+:-ms-input-placeholder {
+  color: #CCCCCC;
 }
 /* =Visible
 -----------------------------------------------------------------------------*/
@@ -7043,31 +7010,53 @@ FONTS
 -----------------------------------------------------------------------------*/
 /* =Radius
 -----------------------------------------------------------------------------*/
-/* =Selection
+/* =Header
 -----------------------------------------------------------------------------*/
-::-moz-selection {
-  color: #000000;
-  background: #FFE400;
+.header {
+  width: 100%;
+  position: relative;
+  background-color: #F9F9F9;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-::selection {
-  color: #000000;
-  background: #FFE400;
+.header h1 {
+  margin: 0;
 }
-/* =Palceholder
+/* =Footer
 -----------------------------------------------------------------------------*/
-::-webkit-input-placeholder {
-  color: #CCCCCC;
+.footer {
+  width: 100%;
+  position: relative;
+  background-color: #F9F9F9;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-:-moz-placeholder {
-  /* Firefox 18- */
-  color: #CCCCCC;
+.footer p {
+  text-align: center;
+  margin: 0;
 }
-::-moz-placeholder {
-  /* Firefox 19+ */
-  color: #CCCCCC;
+/* =Images
+-----------------------------------------------------------------------------*/
+.banner {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 5;
 }
-:-ms-input-placeholder {
-  color: #CCCCCC;
+.banner img {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: relative;
+  z-index: 10;
 }
 /* =Pages
 -----------------------------------------------------------------------------*/
@@ -7082,9 +7071,6 @@ FONTS
 }
 /* =Responsive
 -----------------------------------------------------------------------------*/
-/*
-    MEDIA SCREEN
-*/
 /* =Mobile
 -----------------------------------------------------------------------------*/
 /* =SmarthPhone
