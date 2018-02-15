@@ -10,8 +10,7 @@ package-lock.json
 readme.html
 README.html
 
-fonts/
-node_modules/
+fonts/*
 node_modules/*
 =======
 /prepros.cfg
