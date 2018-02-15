@@ -10,8 +10,6 @@ var rename = require('gulp-rename');
 
 /* =Taks
 -----------------------------------------------------------------------------*/
-
-
 gulp.task('javascript', function() {
 	gulp.src([
 		'!js/jquery.min.js',
