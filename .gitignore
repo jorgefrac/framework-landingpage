@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 prepros.cfg
 prepros-6.config
 
@@ -12,3 +13,7 @@ README.html
 fonts/
 node_modules/
 node_modules/*
+=======
+/prepros.cfg
+node_modules/*
+>>>>>>> 474cce51d9b00d70b82491a0460116224212f528

@@ -5,6 +5,7 @@ var gulp = require('gulp');
 var uglify = require('gulp-uglify');
 var dest = require('gulp-dest');
 var jsmin = require('gulp-jsmin');
+var cssmin = require('gulp-cssmin');
 var rename = require('gulp-rename');
 
 
@@ -20,3 +21,14 @@ gulp.task('javascript', function() {
 	.pipe(rename({suffix: '.min'}))
         .pipe(gulp.dest('dist'));
 });
+
+gulp.task('css', function () {
+    gulp.src('css/*.css')
+        .pipe(cssmin())
+        .pipe(rename({suffix: '.min'}))
+        .pipe(gulp.dest('dist'));
+});
+
+/* =Init
+-----------------------------------------------------------------------------*/
+gulp.task('default',['css','javascript']);
